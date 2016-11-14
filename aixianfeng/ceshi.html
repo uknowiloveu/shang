@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>无标题</title>
+	<style type="text/css">
+			.box{position: absolute;left:10%;top:10%;}
+		</style>
+
+</head>
+<body>
+
+
+
+
+
+<div id="indicatorContainer" class="box">
+	<div><span>
+		123456
+	</span></div>
+</div>
+		
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js">
+			
+		</script>
+		<script type="text/javascript" src="js/radialIndicator.js">
+			
+		</script>
+		<script type="text/javascript">
+
+			document.documentElement.style.fontSize=innerWidth/10+"px";
+	window.onresize=function(){
+		document.documentElement.style.fontSize=innerWidth/10+"px";
+	}
+
+
+
+			// $("#indicatorContainer").radialIndicator();
+				// radialIndicator.defaults.initValue = 80; //指示器赤初始值
+				// radialIndicator.defaults.barWidth = 10; // 指示器刻度条的宽度
+				// radialIndicator.defaults.barBgColor = "black"; //指示器剩余刻度条的背景颜色
+				// radialIndicator.defaults.barColor = "red"; //指示渊声巷背景颜色
+				// radialIndicator.defaults.roundCorner = false; //边缘圆角
+				
+				// var radialObj = radialIndicator("#indicatorContainer");
+				// var curProgress = radialObj.value(); // 获取刻度值
+				// var s=90
+				// radialObj.value(s); // 设置刻度值
+				
+				$("#indicatorContainer").radialIndicator({
+				barColor : "#66a4d8",
+				barWidth : 20,
+				roundCorner: true,
+				percentage: true ,
+				barBgColor:"red",
+				barColor:"black",
+				radius:80,
+			})
+
+
+
+
+		var radialObj_02 = $('#indicatorContainer').data('radialIndicator');
+		var s=2
+		radialObj_02.animate(s*30)
+
+
+
+
+
+
+
+
+		</script>
+</body>
+</html>

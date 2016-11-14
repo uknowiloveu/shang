@@ -1,0 +1,41 @@
+﻿*{padding: 0;margin: 0}
+ul,ol{list-style: none}
+body{font-size: 0.1875rem;"微软雅黑";margin:0 auto;}
+img{border: none;}
+a{text-decoration: none;color: #434240;}
+
+
+
+.booking {width: 100%;}
+
+.booking .headerc{height: 1.421875rem;border-bottom: 0.015625rem solid #e0e0e0;display: flex;justify-content:center;align-items:center;background: #f9fafd;}
+.booking .headerc span{font-size: 0.46875rem;font-weight: bold;}
+
+
+.booking .col{height: 0.15625rem;background: #eeeef0;}
+
+
+.booking .choose{border-top: 0.015625rem solid #a2a2a2;height: 1.046875rem;display: flex;align-items:center;justify-content:center;
+border-bottom: 0.03125rem #d1d1d1 solid;}
+.booking .choose a{width: 1.640625rem;height: 100%;line-height: 1.046875rem;height: 1.046875rem;font-size: 0.3125rem;text-align: center;color: #a0a0a0;}
+.booking .choose:last-child{border-top: 0;border-bottom: 0.03125rem solid #a4a4a4;}
+.booking .choose_big{height: 2.140625rem;border-bottom: 0.3125rem #eeeef0 solid;}
+.booking .choose:first-child a:first-child{border-bottom: 0.015625rem black solid;color: black;}
+
+
+
+
+.booking .sel_fru{height: 0.921875rem;border-top: 0.015625rem #a0a0a0 solid;border-bottom: 0.03125rem solid #cccccc;display: flex;align-items:center;}
+.booking .sel_fru>div{background: #35aafa;width: 0.15625rem;height: 0.390625rem;margin: 0 0.296875rem 0 0.265625rem;}
+
+
+.booking_reqs{width: 100%;display: block;}
+.booking .fruites{height: 3.5rem;border-bottom: 0.03125rem solid #cccccc;position: relative;}
+.booking .fruites>a>img{width: 2.78125rem;height: 1.875rem;float: left;margin: 0.890625rem 0.9375rem 0 0.9375rem;}
+.booking .fru_show{width: 4.328125rem;float: right;margin: 0.40625rem 0.96875rem 0 0;}
+.booking .fru_show span{line-height: 0.59375rem;color: #c8c8c8;font-size:0.40625rem;}
+.booking .fru_show p{margin-top: 0.625rem;color: red;font-size: 0.40625rem;}
+.booking .fru_add{width: 1.09375rem;height: 1.046875rem;position: absolute;bottom: 0.5rem;right: 0.625rem;}
+
+/*.booking .fruites:nth-of-type(2){width: 2.984375rem;height: 2.078125rem;}
+.booking .fruites:nth-of-type(3){width: 2.984375rem;height: 2.078125rem;}*/

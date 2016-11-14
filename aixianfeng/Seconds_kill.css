@@ -1,0 +1,53 @@
+*{padding: 0;margin: 0}
+ul,ol{list-style: none}
+body{font-size: 0.1875rem;"微软雅黑";margin:0 auto;}
+img{border: none;}
+a{text-decoration: none;color: #434240;}
+
+
+header{display: flex;align-items:center;justify-content:space-around;height: 1.40625rem;border-bottom: 0.03125rem #e0e0e0 solid;background: #f9fafd}
+header img:first-child{width: 0.359375rem;height: 0.609375rem;}
+header img:last-child{width: 0.640625rem;height: 0.640625rem;}
+header span{width: 7.5rem;text-align: center;font-size: 0.375rem;}
+
+
+
+
+.share{width: 10.0rem;height: 4.359375rem;position: relative;}
+.share img{width: 10.0rem;height: 4.359375rem;}
+.share>div{width: 2.265625rem;height: 0.796875rem;background: #272c2a;border-radius: 0.390625rem;position: absolute;text-align: center;line-height: 0.796875rem;bottom: 0.3125rem;right: 0.3125rem;color: white;letter-spacing: 0.15625rem;}
+
+
+.time{height: 2.171875rem;display: flex;justify-content:center;border-bottom: 0.015625rem solid white;}
+.time ul{width: 2.484375rem;background: #272c2a;border-right: 0.03125rem solid white;display: flex;flex-direction:column;align-items:center;justify-content:space-around;}
+.time ul img{width: 0.4375rem;height: 0.4375rem;}
+.time ul:last-child{border: 0;background: #fdd000;}
+.time ul li{color: white;}
+
+
+.action{height: 1.28125rem;background: #f2f2f2;}
+.end_time{width: 4.0625rem;background: #fdd000;height: 100%;float: left;}
+.end_time p{height: 0.6rem;line-height: 0.6rem;text-align: center;width: 100%;}
+.action span{width: 3.578125rem;height:0.875rem;background: #272c2a;color: white;border-radius: 0.390625rem;float: left;display: block;margin:0.25rem 0 0 1.71875rem;line-height:0.875rem;text-align: center;}
+
+
+.miansha{width: 100%;display:flex;flex-direction:column;}
+.ex{height: 4.71875rem;display: flex;justify-content:space-around;width: 100%;border-bottom: 0.3125rem #efefef solid;}
+.ex_left{width: 4.46875rem;border-right: #eeeeee 0.03125rem solid;display: flex;justify-content:center;align-items:center;}
+.ex_left>a>img{width: 3.625rem;height: 3.46875rem;}
+.ex_right{width: 5.4375rem;display: flex;flex-direction:column;align-items:center;justify-content:space-around;padding-top: 0.3125rem;padding-bottom: 0.3125rem;}
+.pri{display: flex;flex-direction:row;align-items:center;justify-content:space-around;}
+.pri>span{color: red;}
+.buy{width: 3.515625rem;height: 0.9375rem;background: #ff602c;border-radius: 0.3125rem;text-align: center;line-height:0.9375rem; }
+.ex_right h3{display: inline-block;font-size: 0.53125rem;margin :0 0.15625rem 0 0.15625rem;}
+.ex_right p{font-size: 0.34375rem;}
+
+
+
+
+
+.my_shops_bac{width: 1.703125rem;height: 1.703125rem;background: #ffd600;border-radius: 50%;border: 0.15625rem #ffffff solid;display: flex;align-items:center;justify-content:center;position:fixed;bottom: 1.25rem;right: 0.25rem;}
+.my_shops_bac img{width: 0.875rem;height: 0.921875rem;}
+
+.my_shops_bac span{width: 0.59375rem;height: 0.59375rem;background: red;display: flex;align-items:center;justify-content:center;margin: -0.625rem -0.625rem 0 0;border-radius: 50%;}
+

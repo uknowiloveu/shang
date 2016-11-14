@@ -1,0 +1,25 @@
+*{padding: 0;margin: 0}
+ul,ol{list-style: none}
+body{font-size: 0.1875rem;"微软雅黑";margin:0 auto;}
+img{border: none;}
+a{text-decoration: none;color: #434240;}
+
+header{height: 1.40625rem;border-bottom: 0.015625rem solid #e0e0e0;display: flex;align-items:center;justify-content:space-around;}
+.frame{height: 0.84375rem;width: 6.21875rem;border: 0.03125rem #e0e0e0 solid;border-radius: 0.078125rem;background: url(img/sear_head_02.jpg) no-repeat 0.15625rem center;background-size: 0.390625rem 0.40625rem;}
+.enter{color: #777777;background: white;border: 0;font-size: 0.25rem;}
+.sears{width: 0.34375rem;height: 0.609375rem;}
+.sear_text{width: 5.46875rem;float: right;height: 100%;border: 0;}
+
+
+
+.hotsear,.hotsear_2{height: 7.0125rem;background: #efefef;}
+.hot,.hot_2{height: 6.140625rem;width: 9.171875rem;margin: 0 auto;padding-top: 0.671875rem;}
+.hot h2,.hot_2 h2{height: 0.75rem;font-size: 0.46875rem;}
+.text,.text_2{width:8.828125rem;height: 5.6875rem;}
+.hot span,.hot_2 span{height:0.78125rem;background: white;
+text-align: center;padding: 0.375rem 0.46875rem;
+line-height: 0.78125rem;float: left;border-radius:0.78125rem;margin-right: 0.359375rem;margin-bottom: 0.3125rem;font-size: 0.375rem;}
+
+
+.clear{height:2.34375rem;background:#efefef;display: flex;align-items:center;justify-content:center; }
+.clear_center{width: 6.6875rem;height: 1.296875rem;border:0.015625rem solid #e0e0e0;background: #efefef;color:#e0e0e0; font-size: 0.28125rem;}

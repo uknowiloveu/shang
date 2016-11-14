@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>爱鲜蜂</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+</head>
+<body>
+  <div class="container">
+
+  </div>
+
+
+
+
+  
+ <footer>
+    <dl>
+      <dt><a href="#main" class="mains"><img src="img/bottom_1.jpg" alt="" id="main"></a></dt>
+      <dd><a href="#main" class="mains">首页</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="#send" class="sends"><img src="img/bottom_2.jpg" alt="" id="send"></a></dt>
+      <dd><a href="#send" class="sends">闪送超市</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="#booking" class="bookings"><img src="img/bottom_3.jpg" alt="" id="booking"></a></dt>
+      <dd><a href="#booking" class="bookings">新鲜预定</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="#shoppingCar" class="shoppingCars"><img src="img/bottom_4.jpg" alt="" id="shoppingCar"></a>
+      	<span id="shopping_num">0</span></dt>
+      <dd><a href="#shoppingCar" class="shoppingCars">购物车</a></dd>
+    </dl>
+    <dl>
+      <dt><a href="#My_page" class="My_pages"><img src="img/bottom_5.jpg" alt="" id="My_page"></a></dt>
+      <dd><a href="#My_page" class="My_pages">我的</a></dd>
+    </dl>
+  </footer>
+	<script type="text/javascript" src="jquery-3.1.0.min.js">
+		
+	</script>
+  <script src="lib/require.js" data-main='main'></script>
+  <script type="text/javascript" src="swiper-3.4.0.min.js"></script>
+  <script type="text/javascript">
+  document.documentElement.style.fontSize=innerWidth/10+"px";
+  window.onresize=function(){
+    document.documentElement.style.fontSize=innerWidth/10+"px";
+  }
+  
+  
+  //获取的footer下链接图片的document
+//	var main_cli=document.getElementsByClassName("mains")
+	var main_img=document.getElementById("main")
+//	var send_cli=document.getElementsByClassName("sends")
+		var send_img=document.getElementById("send")
+//		var booking_cli=document.getElementsByClassName("bookings")
+		var booking_img=document.getElementById("booking")
+//		var shopping_cli=document.getElementsByClassName("shoppingCars")
+		var shopping_img=document.getElementById("shoppingCar")
+//		var my_cli=document.getElementsByClassName("My_pages")
+		var my_img=document.getElementById("My_page")
+		
+		
+		main_img.src="img/booking_bottom_01.jpg"
+		
+		
+		var shopping_num=$("#shopping_num")
+		
+		
+		
+		
+		
+	
+		</script>
+
+
+</body>
+</html>

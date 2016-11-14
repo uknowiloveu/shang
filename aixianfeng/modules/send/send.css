@@ -1,0 +1,89 @@
+*{padding: 0;margin: 0}
+ul,ol{list-style: none}
+body{font-size: 0.1875rem;"微软雅黑";margin:0 auto;}
+img{border: none;}
+a{text-decoration: none;color: #434240;}
+
+.send {width: 100%;}
+
+
+.send .headerb{width: 100%;height: 1.4375rem;background: #ffd600;position: fixed;left: 0;top: 0;z-index: 10;}
+.send .header_2{float: left;width:7.8125rem;text-align: center;margin-left: 0.5625rem;}
+.send .header_2 p{float: left;line-height:1.4375rem;margin:0 0 0 2.578125rem;height:1.4375rem;font-size: 0.34375rem;font-weight: bold;}
+.send .header_2 img{width: 0.265625rem;height: 0.265625rem;float: left;margin: 0.546875rem 0 0 0.078125rem;}
+.send .header_3{float: left;}
+.send .header_3 img{width: 0.609375rem;height: 0.609375rem;margin: 0.234375rem 0.1875rem 0 0;}
+.send .fill{width: 100%;height: 1.4375rem;background: red;}
+
+
+
+.send .left{width: 2.375rem;height: 12.734375rem;float: left;}
+.send .left a{height: 1.25rem;border-bottom: #e0e0e0 0.03125rem solid;background: #f8f8f8;width: 100%;display: block;line-height: 1.25rem;text-align: center;color: #7d7d7d;}
+.send .bac{width: 0.15625rem;height: 1.09375rem;float: left;margin-top: 0.078125rem;background: #ffd600;}
+
+
+.send .right{width: 7.5rem;float: right;}
+.send .right_nav{height: 1.25rem;width:7.5rem;
+border-bottom: 0.03125rem #e0e0e0 solid;position: fixed;top: 1.4375rem;left: 2.375rem;z-index:10;}
+.send .right_nav a{width:50%;display: inline-block;text-align: center;line-height:1.25rem;float: left;height: 1.25rem;}
+.send .right_nav a:first-child{background: url(img/headline_bac.jpg) no-repeat right center;background-size: 0.03125rem 0.6875rem;}
+.send .right_nav a img{width: 0.3125rem;height: 0.15625rem;}
+
+
+.send_s{width: 7.5rem;overflow: auto;height: 14.41rem;z-index: 3;margin-top:1.25rem ;}
+.show{height: 2.765625rem;border-bottom: 0.03125rem solid #e0e0e0;position: relative;}
+.show dt{width: 2.765625rem;float: left;height: 100%;}
+.show img{width: 1.3125rem;height: 2.015625rem;
+margin: 0.3125rem 0.5625rem 0 0.625rem;}
+.show dd p,.show dd span,.show dd div{display: inline-block;}
+.show dd h3{height: 0.78125rem;line-height: 0.78125rem;}
+.show dd:nth-of-type(2) div{width: 0.875rem;height: 0.4375rem;border-radius: 0.078125rem;border: 0.03125rem red solid;color: red;line-height: 0.4375rem;text-align: center;}
+.show dd:nth-of-type(2) span{width: 1.5rem;height: 0.4375rem;background: red;border-radius: 0.078125rem;color: white;line-height: 0.4375rem;text-align: center;}
+.show dd:nth-of-type(3){line-height: 0.78125rem;height: 0.78125rem;}
+.show dd:last-child p{color: red;margin-right: 0.125rem;}
+
+.send .add{height: 0.875rem;width: 2.4375rem;position: absolute;
+bottom: 0.3125rem;right: 0.3125rem;}
+.addpos{width: 100%;height: 100%;}
+.send .addpos a:first-child img{height: 0.09375rem;width: 0.328125rem;margin: 0.359375rem 0.234375rem 0 0.234375rem;float: left;}
+.send .addpos a:last-child img{height: 0.34375rem;width: 0.34375rem;margin: 0.234375rem 0.234375rem 0 0.234375rem;float: right;}
+.send .add a{display: inline-block;width: 0.890625rem;height: 0.890625rem;border-radius: 50%;border: 0.03125rem #ffbe89 solid;}
+.send .addpos a:first-child{float: left;display: none;}
+.send .addpos a:last-child{float: right;}
+.addshopnum{
+	z-index: 2;display: none;
+	float: left;width: 0.15625rem;margin: 0 0.15625rem 0 0.15625rem;line-height:  0.875rem;height: 0.875rem;}
+
+.send .show:nth-of-type(2) img{width: 0.75rem;height: 1.96875rem;}
+.send .show:nth-of-type(3) img{width: 1.96875rem;height: 1.96875rem;}
+.send .show:nth-of-type(4) img{width: 1.734375rem;height: 2.015625rem;}
+
+
+
+
+
+
+
+
+
+
+/*加载的send.css*/
+.send_s{width: 7.5rem;}
+.show{height: 2.765625rem;border-bottom: 0.03125rem solid #e0e0e0;position: relative;}
+.show dt{width: 2.765625rem;float: left;height: 100%;}
+.show img{width: 1.3125rem;height: 2.015625rem;
+margin: 0.3125rem 0.5625rem 0 0.625rem;}
+.show dd p,.show dd span,.show dd div{display: inline-block;}
+.show dd h3{height: 0.78125rem;line-height: 0.78125rem;}
+.show dd:nth-of-type(2) div{width: 0.875rem;height: 0.4375rem;border-radius: 0.078125rem;border: 0.03125rem red solid;color: red;line-height: 0.4375rem;text-align: center;}
+.show dd:nth-of-type(2) span{width: 1.5rem;height: 0.4375rem;background: red;border-radius: 0.078125rem;color: white;line-height: 0.4375rem;text-align: center;}
+.show dd:nth-of-type(3){line-height: 0.78125rem;height: 0.78125rem;}
+.show dd:last-child p{color: red;margin-right: 0.125rem;}
+
+
+
+
+
+
+
+
